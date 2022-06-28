@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+def uppercase(str):
+ val = len(str)
+ for i in range(0, val):
+  if isdigit(str[i]) or islower(str[i]):
+   print(f"{str[i]}", end = "")
+  else:
+   a = ord(str[i])
+   print(f"{char(a + 32)}", end = "")
+
+
+uppercase("Best school")
