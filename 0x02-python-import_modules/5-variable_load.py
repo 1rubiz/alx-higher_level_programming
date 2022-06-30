@@ -2,8 +2,7 @@
 
 
 if __name__ == "__main__":
-  
-  
-  import variable_load_5 as val
-  
-  print(f"{val.a}")
+
+    import variable_load_5 as val
+
+    print(f"{val.a}")
