@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Class Square: square class with conditional
-statements
+Class Square: adds a square area method
 """
 
 
@@ -17,6 +16,6 @@ class Square:
         else:
             self.__size = size
 
-    def area(size):
+    def area(self):
         """returns the square area"""
         return self.__size * self.__size
