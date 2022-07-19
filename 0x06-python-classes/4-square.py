@@ -16,6 +16,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.size = size
+
     @property
     def size(self):
         """retrives the current private size attribute"""
