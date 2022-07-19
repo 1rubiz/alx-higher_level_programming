@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Class Square: Defines an empty class
+"""
 
 
 class Square:
