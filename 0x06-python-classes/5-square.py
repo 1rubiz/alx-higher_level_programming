@@ -32,7 +32,7 @@ class Square:
         else:
             self.__size = value
 
-    def area(size):
+    def area(self):
         """returns the square area"""
         return self.__size * self.__size
 
@@ -40,8 +40,8 @@ class Square:
         """Print a square with # to stdout with the
         size attribute value"""
         if self.size != 0:
-            for i in range(self.size):
-                for i in range(self.size):
+            for i in range(self.__size):
+                for i in range(self.__size):
                     print('*', end = '')
                     print()
         else:
