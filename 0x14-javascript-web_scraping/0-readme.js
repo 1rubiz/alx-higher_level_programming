@@ -3,10 +3,10 @@
 - first argument is the file path
 - The content of the file must be read in utf-8
 - If an error occurred during the reading, print the error object */
-const arg = process.argv;
+const filePath = process.argv[2];
 const fs = require('fs');
 
-fs.readFile(arg[2], 'utf8', function (err, data) {
+fs.readFile(filePath, 'utf-8', (error, data)=> {
   if (error) {
     console.log(error);
   } else {
