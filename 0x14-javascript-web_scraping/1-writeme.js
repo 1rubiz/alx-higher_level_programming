@@ -7,6 +7,6 @@ If an error occurred during the reading, print the error object */
 const args = process.argv;
 const fs = require('fs');
 
-fs.readFile(args[2], 'utf8', (err, data) =>{
+fs.readFile(args[2], 'utf-8', (err, data) =>{
   if (error) { console.log(error); } else { console.log(data); }
 });
