@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if i == 101:
-        continue
-    if i == 113:
-        continue
-    else:
-        print(f"{chr(i)}", end = "")
+# Author - Tolulope Fakunle
+for letter in range(97, 123):
+    if chr(letter) != 'q' and chr(letter) != 'e':
+        print("{}".format(chr(letter)), end="")
